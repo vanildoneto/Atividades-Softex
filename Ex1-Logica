@@ -1,0 +1,12 @@
+#Atividade 1, Lógica de Programação e Orientação a Objetos#
+
+Matemática: 1- Platão; 2- Sócrates; 3- Aristóteles.
+Física: 1- Aristóteles ; 2- Platão; 3- Sócrates.
+Química: 1- Sócrates; 2- Aristóteles; 3- Platão.
+
+ Já sabemos que Aristóteles não ficou em primeiro em Química, então ele tem 2 disciplinas em que pode estar em primeiro, 
+ mas já podemos ver que Platão acertou mais que Aristóteles em Matemática, logo em matemática, Aristóteles também não pode ficar em primeiro,
+ com isso, ele é o primeiro em Física. Com Sócrates perdendo para platão em física, temos uma disciplina fechada. Se Platão acertou mais que Aristóteles em Matemática,
+ tendo platão já ocupado a segunda posição, então só cabe a ele o primeiro lugar em matemática. Tendo Sócrates já ocupado a terceira posição em matemática, então,
+ só cabe a ele o segundo lugar em matemática. Com isso os lugares restantes em química se ocupam, por terem suas únicas opções já definidas.
+ 
