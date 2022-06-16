@@ -1,0 +1,6 @@
+Lógica por trás do problema do professor:
+
+ Em todas as imagens, nota-se a divisão da classe como uma forma matricial, separada por linhas e colunas.
+ uma matriz[6,6] onde em cada linha e coluna tem se o dobro da quantidade de alunos de uma matéria em relação a outra na mesma linha ou coluna,
+ por exemplo, na linha um tem-se 2 alunos que preferem matemática, seguindo essa lógica prevista, terão 4 alunos que preferem português.
+ Logo qualquer alteração em uma cadeira, iria mudar todo o padrão estabelecido nas filas(colunas) e linhas da turma.
