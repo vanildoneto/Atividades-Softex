@@ -1,0 +1,12 @@
+Proposição de variáveis: caractere é ideal para atruibuiçao de letras, numeros e simbolos. Inteiro, ideal para numeros inteiros, sem decimais ou fracionados.
+Real, para qualquer tipo de número.
+
+caractere Nome, Endereço;
+inteiro CPF, RG;
+real Altura;
+
+Nome <- José Almeida da Silva;
+CPF <- 12345678900;
+RG <- 9517530;
+Altura <- 1,78;
+Endereço <- Rua A, 380 – Centro – Recife/PE;
