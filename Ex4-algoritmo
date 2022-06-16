@@ -1,0 +1,49 @@
+inicio
+
+cacatere nome, endereco, cidade, nomepai, nomemae;
+inteiro cpf, rg, idade;
+real peso, rendabruta;
+
+escreva("Digite o nome: ");
+leia(nome);
+
+escreva("Digite o endereço: ");
+leia(endereco);
+
+escreva("Digite a cidade: ");
+leia(cidade);
+
+escreva("Digite o nome do pai: ");
+leia(nomepai);
+
+escreva("Digite o nome da mãe: ");
+leia(nomemae);
+
+escreva("Digite o CPF: ");
+leia(cpf);
+
+escreva("Digite o RG: ");
+leia(rg);
+
+escreva("Digite a idade: ");
+leia(idade);
+
+escreva("Digite o peso: ");
+leia(peso);
+
+escreva("Digite a renda bruta: ");
+leia(rendabruta);
+
+escreva("Seu Nome: ", nome);
+escreva("Seu Endereço: ", endereco);
+escreva("Sua Cidade: ", cidade);
+escreva("Seu CPF: ", cpf);
+escreva("Seu RG: ", rg);
+escreva("Sua idade: ", idade);
+escreva("Nome do Pai: ", nomepai);
+escreva("Nome da Mãe: ", nomemae);
+escreva("Seu peso: ", peso);
+escreva("Sua Renda bruta: ", rendabruta);
+
+fim
+
