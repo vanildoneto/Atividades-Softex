@@ -1,4 +1,4 @@
-Proposição de variáveis: caractere é ideal para atruibuiçao de letras, numeros e simbolos. Inteiro, ideal para numeros inteiros, sem decimais ou fracionados.
+Proposição de variáveis: caractere é ideal para atruibuição de letras, números e símbolos. Inteiro, ideal para números inteiros, sem decimais ou fracionados.
 Real, para qualquer tipo de número.
 
 caractere Nome, Endereço;
