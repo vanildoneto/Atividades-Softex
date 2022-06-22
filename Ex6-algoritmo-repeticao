@@ -1,0 +1,116 @@
+Inicio
+
+real notaA, notaB, notaC, notaD, maiorA=0, maiorB=0, maiorC=0, maiorD=0;
+inteiro contador;
+caractere nome;
+
+maior = 0;
+
+escreva("Turma A: \n");
+para contador=0 ate contador=25 passo contador+1 faca
+
+escreva("digite seu nome: \n");
+leia(nome);
+
+escreva("digite sua nota: \n");
+leia(notaA);
+
+se (notaA > 7)
+
+escreva("O aluno nome foi aprovado!",nome);
+fimse
+
+se (notaA > maiorA)
+maiorA=notaA;
+fimse
+fimpara
+escreva("Maior nota da turma A: ",maiorA)
+
+
+escreva("Turma B: \n");
+para contador=0 ate contador=25 passo contador+1 faca
+
+escreva("digite seu nome: \n");
+leia(nome);
+
+escreva("digite sua nota: \n");
+leia(notaB);
+
+se (notaB > 7)
+
+escreva("O aluno nome foi aprovado!",nome);
+fimse
+
+se (notaB > maiorB)
+maiorB=notaB;
+fimse
+fimpara
+escreva("Maior nota da turma B: ",maiorB)
+
+
+escreva("Turma C: \n");
+para contador=0 ate contador=25 passo contador+1 faca
+
+escreva("digite seu nome: \n");
+leia(nome);
+
+escreva("digite sua nota: \n");
+leia(notaC);
+
+se (notaC > 7)
+
+escreva("O aluno nome foi aprovado!",nome);
+fimse
+
+se (notaC > maiorC)
+maiorC=notaC;
+fimse
+fimpara
+escreva("Maior nota da turma C: ",maiorC)
+
+
+escreva("Turma D: \n");
+para contador=0 ate contador=25 passo contador+1 faca
+
+escreva("digite seu nome: \n");
+leia(nome);
+
+escreva("digite sua nota: \n");
+leia(notaD);
+
+se (notaD > 7)
+
+escreva("O aluno nome foi aprovado!",nome);
+fimse
+
+se (notaD > maiorD)
+maiorD=notaD;
+fimse
+fimpara
+escreva("Maior nota da turma D: ",maiorD)
+
+se (maiorA>maior)
+maior=maiorA;
+fimse
+
+se(maiorB>maior)
+maior=maiorB;
+fimse
+
+se(maiorC>maior)
+maior=maiorC;
+fimse
+
+se(maiorD>maior)
+maior=maiorD;
+fimse
+
+escreva("Maior nota entre as turmas: ", maior)
+
+fim
+ 
+
+
+
+
+
