@@ -1,0 +1,69 @@
+inicio
+
+caractere veiculo, pular, viaja, devagar, piloto, asas, voo;
+
+
+
+
+escreva ("Seu veículo é aéreo?(s/n)");
+leia ("veiculo");
+
+se(veiculo = 's')
+
+escreva ("Seu veículo precisa pular?(s/n)");
+leia ("pular");
+
+se(pular = 's')
+
+escreva("Então, o transporte escolhido foi a asa delta.");
+fimse
+
+senão
+
+escreva ("Em seu veículo se viaja dentro?(s/n)");
+leia ("viaja");
+
+se(viaja = 's')
+
+escreva("Seu veículo é devagar?(s/n)");
+leia(devagar);
+
+se(devagar = 's')
+
+escreva ("Então, o transporte escolhido foi o balão.");
+fimse
+
+senao
+
+escreva("Seu veículo tem piloto?(s/n)");
+leia(piloto);
+
+se(piloto = 's')
+
+escreva("Seu veículo possui asas fixas?(s/n)");
+leia(asas);
+
+se(asas = 's')
+
+escreva ("Então, o transporte escolhido foi o avião.");
+fimse
+
+senao
+
+escreva("Seu veículo faz voo vertical?(s/n)");
+leia(voo);
+
+se(devagar = 's')
+
+escreva ("Então, o transporte escolhido foi o helicoptero.");
+    fimse
+   fimse
+  fimse
+fimse
+
+
+
+
+
+
+
