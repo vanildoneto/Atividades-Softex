@@ -1,0 +1,52 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro vetor[10]
+		vetor[0]= 1
+		vetor[1]= 10
+		vetor[2]= 7
+		vetor[3]= 4
+		vetor[4]= 8
+		vetor[5]= 6
+		vetor[6]= 3
+		vetor[7]= 5
+		vetor[8]= 9
+		vetor[9]= 2
+
+		escreva ("vetor original: ")
+		para( inteiro i=0; i<10; i++){
+			se (i == 9){
+				escreva (vetor[i])
+			} senao{
+				escreva (vetor[i], " - ")
+			
+			}
+		
+		}
+
+		para (inteiro y = 9; y >= 0; y--){
+			para (inteiro x = 0; x < 9; x++){
+				se( vetor[x] > vetor[x+1]){
+					inteiro aux = vetor[x]
+					vetor[x]= vetor[x+1]
+					vetor[x+1]= aux
+				}
+			}
+		}
+
+		escreva ("\nVetor ordenado por bubble sort: ")
+		para( inteiro i=0; i<10; i++){
+			se (i == 9){
+				escreva (vetor[i])
+			} senao{
+				escreva (vetor[i], " - ")
+			
+			}
+		
+		}
+		
+		
+}
+}
