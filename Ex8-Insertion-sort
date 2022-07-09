@@ -4,17 +4,11 @@ programa
 	funcao inicio()
 	{
 		inteiro x, j, aux
-		inteiro vetor[6]
-		vetor[0]= 16
-		vetor[1]= 11
-		vetor[2]= 6
-		vetor[3]= 3
-		vetor[4]= 30
-		vetor[5]= 5
-
+		inteiro vetor[]={57, 61, 63, 67, 69, 71, 75, 77, 79, 81, 23, 25, 27, 29, 31, 35, 37, 39, 43, 45, 49, 51, 55, 3, 5, 9, 11, 13, 17, 19}
+		
 		escreva ("vetor original: ")
-		para( inteiro i=0; i<6; i++){
-			se (i == 5){
+		para( inteiro i=0; i<30; i++){
+			se (i == 29){
 				escreva (vetor[i])
 			} senao{
 				escreva (vetor[i], " - ")
@@ -24,7 +18,7 @@ programa
 		}
 
 		
-		para (x = 1; x<6; x++){
+		para (x = 1; x<30; x++){
 		aux = vetor[x]
 		j = x - 1
 		enquanto (( j >=0) e (aux < vetor[j])){
@@ -35,8 +29,8 @@ programa
 	}
 
 	escreva ("\nVetor ordenado por insertion sort: ")
-	para( inteiro i=0; i<6; i++){
-			se (i == 5){
+	para( inteiro i=0; i<30; i++){
+			se (i == 29){
 				escreva (vetor[i])
 			} senao{
 				escreva (vetor[i], " - ")
@@ -45,3 +39,4 @@ programa
 
 }
 }}
+
