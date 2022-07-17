@@ -1,0 +1,14 @@
+A teoria dos grafos se provou muito eficaz e prática na hora de se exemplificar e visualisar dados e criar relações, 
+como pedido o primeiro exemplo de sua aplicação, temos:
+
+Área de dados:
+Análise de Grafos no Oracle Database e no Oracle Autonomous Database
+A Oracle fornece um mecanismo de análise de grafos com o Oracle Database e o Oracle Autonomous Database
+para que os usuários possam descobrir mais insights em seus dados usando o poder dos algoritmos de grafos, consultas de correspondência de padrões e visualização.
+Ter tecnologias de grafos no Oracle Database e no Oracle Autonomous Database fornece escalabilidade, desempenho e segurança. 
+Os usuários podem executar análises de grafos com mais de 60 algoritmos de grafos, utilizar uma linguagem de consulta e visualizações. 
+Interfaces padrão simplificam esse processo e a integração com ferramentas de machine learning simplifica a aplicação de grafos ao machine learning.
+
+Redes sociais:
+Popularizado por Mark Zuckerberg, o chamado grafo social, que é utilizado pelo facebook como o método de criação de rede com os recursos de curtida, seguir e amizade,
+fazem com que um vértice da rede tenha uma subrede a sua volta, e assim o tamanho desse grafo social cresce exponencialmente.
