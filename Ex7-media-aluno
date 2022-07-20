@@ -1,0 +1,31 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real nota1, nota2, media
+		inteiro falta
+		cadeia nome
+
+		escreva("Digite seu nome: ")
+		leia(nome)
+
+		escreva("Digite a primeira nota: ")
+		leia(nota1)
+		
+		escreva("Digite a segunda nota: ")
+		leia(nota2)
+		media = (nota1+nota2)/2
+
+		escreva("Digite o número de faltas: ")
+		leia(falta)
+
+		se(media<7 ou falta>3){
+			escreva("O aluno foi reprovado!")
+		}
+		senao{
+			escreva("O aluno foi aprovado!")
+		}
+		
+	}
+}
