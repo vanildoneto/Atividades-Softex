@@ -1,0 +1,32 @@
+programa {
+	funcao inicio() {
+		inteiro roda, pessoas
+		real peso
+		 
+		escreva("Quantidade de rodas do veículo? ")
+		leia(roda)
+		
+		escreva("Quantidade de pessoas no veículo? ")
+		leia(pessoas)
+		
+		escreva("Qual o peso do veículo? ")
+		leia(peso)
+		
+	    se(roda==2 ou roda==3){
+	        escreva("\nHabilitação categoia: A.")
+	    }
+	    senao se(roda==4 e pessoas<=8 e peso<=3500){
+	        escreva("\nHabilitação categoia: B.")
+	    }
+	     senao se(roda>=4 e peso>=3500 e peso<=6000){
+	        escreva("\nHabilitação categoia: C.")
+	    }
+	     senao se(roda>=4 e pessoas>8){
+	        escreva("\nHabilitação categoia: D.")
+	    }
+	     senao se(roda>=4 e peso>6000){
+	        escreva("\nHabilitação categoia: E.")
+	    }
+		
+	}
+}
