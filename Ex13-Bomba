@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro i, seg
+		
+		
+		escreva("Em quantos segundos a bomba deve explodir? ")
+		leia(seg)
+
+		escreva("\niniciando contagem regressiva.\n ")
+
+		para(i=seg;i>=0;i--){
+			escreva("\n",i)
+		}
+
+		escreva("\nBUM!")
+
+	}
+}
