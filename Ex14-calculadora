@@ -1,0 +1,19 @@
+def calc(num1,num2,op):
+  soma = num1+num2
+  sub = num1-num2
+  mult = num1*num2
+  div = num1/num2
+  if(op==1): return soma
+  elif(op==2): return sub
+  elif(op==3): return mult
+  elif(op==4): return div
+  else: return "operacao invalida"
+
+num1 = 5
+num2=2
+op=1
+resultado=calc(num1,num2,op)
+print(resultado)
+
+/*Fiz o código em python pois não consegui executar no portugol, apesar de nao ter o domínio, em python foi mais fácil e ainda utiliei os exemplos da 
+plataforma como base.*/
