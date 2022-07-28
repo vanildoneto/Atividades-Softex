@@ -1,0 +1,50 @@
+# @title
+def calc(num1, num2, op):
+    soma = num1 + num2
+    sub = num1 - num2
+    mult = num1 * num2
+    div = num1 / num2
+    if (op == 1):
+        return soma
+    elif (op == 2):
+        return sub
+    elif (op == 3):
+        return mult
+    elif (op == 4):
+        return div
+    else:
+        return "\nEssa opção não existe"
+
+
+print("Digite a operação: \n1-soma \n2-subtração \n3-multiplicação \n4-divisão \n0-sair\n")
+op = int(input())
+if (op == 0):
+    print("\nFim.")
+while op != 0:
+
+    if (op == 0):
+        print("\nFim.")
+    if (op>4):
+        print("\nEssa opção não existe.\n")
+        print("Digite a operação: \n1-soma \n2-subtração \n3-multiplicação \n4-divisão \n0-sair\n")
+        op = int(input())
+        if (op == 0):
+            print("\nFim.")
+    if (op<0):
+        print("\nEssa opção não existe.\n")
+        print("Digite a operação: \n1-soma \n2-subtração \n3-multiplicação \n4-divisão \n0-sair\n")
+        op = int(input())
+        if (op == 0):
+            print("\nFim.")
+    else:
+
+        print("\nDigite o primeiro valor:")
+        num1 = int(input())
+        print("\nDigite o segundo valor:")
+        num2 = int(input())
+        resultado = calc(num1, num2, op)
+        print("\nResultado: ", resultado, "\n")
+        print("Digite a operação: \n1-soma \n2-subtração \n3-multiplicação \n4-divisão \n0-sair\n")
+        op = int(input())
+        if (op == 0):
+            print("\nFim.")
