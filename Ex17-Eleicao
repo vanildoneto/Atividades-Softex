@@ -1,0 +1,84 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro voto=0, votox=0, votoy=0, votoz=0, votobranco=0, votonulo=0
+		caracter cont
+
+
+		escreva("Qual candiato deseja votar: \n1- candidato_X => 889 \n2- candidato_Y => 847 \n3- candidato_Z => 515 \n4- branco => 0\n")
+		leia(voto)
+		
+		escolha(voto){
+			caso 889:
+			votox=votox+1
+			pare
+
+			caso 847:
+			votoy=votoy+1
+			pare
+
+			caso 515:
+			votoz=votoz+1
+			pare
+
+			caso 0:
+			votobranco=votobranco+1
+			votonulo=votonulo+1
+			pare
+
+               caso contrario: votonulo=votonulo+1
+               }
+               escreva("Deseja votar novamente?(S/N)")
+               leia(cont)
+               enquanto(cont =='s'){
+
+               escreva("Qual candiato deseja votar: \n1- candidato_X => 889 \n2- candidato_Y => 847 \n3- candidato_Z => 515 \n4- branco => 0\n")
+		leia(voto)
+		
+		escolha(voto){
+			caso 889:
+			votox=votox+1
+			pare
+
+			caso 847:
+			votoy=votoy+1
+			pare
+
+			caso 515:
+			votoz=votoz+1
+			pare
+
+			caso 0:
+			votobranco=votobranco+1
+			votonulo=votonulo+1
+			pare
+
+               caso contrario: votonulo=votonulo+1
+               }
+               escreva("\nDeseja votar novamente?(S/N)\n")
+               leia(cont)
+               }
+
+               escreva("\n***** Resultado da votação *****\n")
+               se((votox>votoy)e(votox>votoz)){
+               	escreva("\nCandidato X foi eleito!\n")
+               }
+               senao se((votoy>votox)e(votoy>votoz)){
+               	escreva("\nCandidato Y foi eleito!\n")
+               }
+               senao se((votoz>votoy)e(votoz>votox)){
+               	escreva("\nCandidato Z foi eleito!\n")
+               }
+
+               escreva("\nNúmero de  votos: \n")
+               escreva("\nCandidato X: ",votox)
+                escreva("\nCandidato y: ",votoy)
+                 escreva("\nCandidato z: ",votoz)
+                  escreva("\nBrancos: ",votobranco)
+                  escreva("\nNulos: ",votonulo)
+
+		
+	}
+}
