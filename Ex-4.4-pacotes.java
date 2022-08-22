@@ -1,5 +1,5 @@
 import Dados.Cadastro.Clientes;
-package dados.banco;
+package Banco.Contas;
 
 
 public class conta {
