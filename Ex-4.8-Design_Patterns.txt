@@ -1,0 +1,11 @@
+Abstract Factory
+
+  Como o nome já diz, Fábrica abstrata, se trata de um padrão de projeto que tem por intúito criar famílias de objetos que são relacionados
+ sem ter que relacioná-los com suas classes concretas. É de grande ajuda em situações onde se tem uma grande quantidade de famílias de objetos
+ relacionados, onde não é necessário classes concretas desses objetos, esses objetos podem até ser desconhecidos, indefinidos, assim permitindo
+ uma maior escalabilidade no código.
+  O Abstract Factory fornece uma interface para a criação de objetos de cada classe das famílias de produtos. Desde que seu código crie objetos 
+ a partir dessa interface, você não precisará se preocupar em criar uma variante errada de um produto que não coincida com produtos já criados 
+ por sua aplicação.
+  Em um programa bem desenvolvido cada classe é responsável por apenas uma coisa. Quando uma classe lida com múltiplos tipos de produto, pode 
+ valer a pena extrair seus métodos fábrica em uma classe fábrica solitária ou uma implementação plena do Abstract Factory.
